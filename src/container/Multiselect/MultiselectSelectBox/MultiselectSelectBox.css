@@ -1,0 +1,43 @@
+.MultiselectSelectBox {
+    width: 80%;
+    max-height: 300px;
+    border: 1px solid rgb(179, 179, 179);
+    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.75);
+    background-color: aliceblue;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    z-index: 200;
+    /* margin: 8px auto; */
+    /* min-height: 44px; */
+    overflow: auto;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    box-sizing: border-box;
+}
+
+.MultiSelectSelectBoxElement {
+    border: 1px solid slategrey;
+    width: 100%;
+    line-height: 1.4em;
+    cursor: pointer;
+}
+
+.MultiselectSelectBoxPlaceholder {
+    background-color:rgb(194, 196, 197);
+    width: 100%;
+    line-height: 1.4em;
+    box-sizing: border-box;
+}
+
+.MultiselectSelectBoxElementFocused {
+    background-color: aquamarine;
+}
+
+.MultiselectSelectBoxHide {
+    visibility: hidden;
+}
+
+.MultiselectSelectBoxShow {
+    visibility: visible;
+}
